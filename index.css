@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgray;
+}
+/* style appliqué à h1 au non survol*/
+
+h1{
+    font-size: 30px;
+    font-style: italic;
+    color:white;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    width: 70%;
+    border:2px solid red;
+    padding: 3px 0 5px 0;
+    border-radius: 5px;
+    background-color: cadetblue;
+    position: relative;
+    left: 180px;
+
+}
+/* div contenant les information de mon d'etat civil et ma photo */
+.identification{
+    display: flex;
+    margin: -20px 220px 0 180px;
+    padding-bottom: 5px;
+    background-color: wheat;
+}
+
+/* style appliqué à h1 au survol*/
+h1:hover{
+    background-color: white;
+    color: cadetblue;
+}
+/* style appliqué à mes h2*/
+h2{
+    text-transform: uppercase;
+    font-family:'Arial Narrow Bold', sans-serif;
+    color: rgb(125, 125, 192);
+    text-decoration: underline;
+}
+/* styles appliqué a mon nom */
+.nom{
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    word-spacing: 3px;
+    letter-spacing: 1.5px;
+}
+/* style appliqué aux information de l'état civil*/
+.info{
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    
+}
+/* la dive etat civile */
+.etat_civil {
+    font-size: 16px; 
+    position: relative;
+    left: 100px;
+    padding-bottom: 5px;
+}
+/* la div photo*/
+.photo{
+    position: relative;
+    left: 45%;
+    top: 30px;
+}
+/* les styles de l'image*/
+img{
+    border-radius: 50%;
+}
+/* style appliqué  au div de l'experience professionnelle*/
+.professionnelle{
+    margin: -20px 220px 0 180px;
+    padding: 5px;
+    background-color: wheat;
+}
+/*style appliqué au h2 et au p du div expérience professionnelle*/
+.info_pro{
+    font-size: 18px; 
+    position: relative;
+    left: 100px;
+}
+/*style appliqué à la span de class date du div expérience professionnelle*/
+.date{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+/*style appliqué à la span de class phrase_pro du div expérience professionnelle*/
+.phrase_pro{
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+}
+/* style appliqué  au div contenant cursus scolaire et universitaire*/
+.universitaire{
+    margin: -20px 220px 0 180px;
+    padding: 5px;
+    background-color:wheat;
+}
+/* style appliqué  au div de class descrip_univer*/
+.descrip_univer{
+    font-size: 18px; 
+    position: relative;
+    left: 100px;
+}
+/* style appliqué  au span de class date_ecole*/
+.date_ecole{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+/* style appliqué  au span de class diplome*/
+.diplome{
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+}
+/* style appliqué  au div contenant les connaissances liguistique et informatique*/
+.informatique{
+    margin: -20px 220px 0 180px;
+    padding: 5px;
+    background-color: wheat;
+}
+.content_informatique{
+    font-size: 16px; 
+    position: relative;
+    left: 100px;
+}
+/* style appliqué au paragraphe du div content_informatique*/
+.informatique p{
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+}
+/*style appliqué aux span de class langue et span_informatique */
+.langue, .span_informatique{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+/*style appliqué au span de class specification */
+.specification{
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+/* style appliqué à la partie centre d'interet*/
+.interet{
+    margin: -20px 220px 0 180px;
+    padding: 5px;
+    background-color: wheat;
+    border-radius: 0 0 5px 5px;
+}
+/* style appliqué à la div contenant le texte de la partie centre d'interet*/
+.content_interet{
+    font-size: 16px; 
+    position: relative;
+    left: 100px;
+}
+/* style appliqué au paragraphe du div content_interet*/
+.interet p{
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+}
+/* style appliqué au span de class atout de la div content_interet*/
+.atout{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+/*style appliqué à notre lien d'apparence d'un bouton*/
+button{
+    background-color: blue;
+    width: 60px;
+    padding: 5px 0;
+    margin-left: 25px;
+}
+/* au survol du bouton*/
+button:hover{
+    background-color:cornsilk ;
+    border: 2px solid blue;
+}
+a:hover{
+    color:blue ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* style du lien*/
+a{
+    color: cornsilk;
+    text-decoration: none;
+}
+/* les styles appliqué aux div et certain de leurs elements au survol */
+/* au survol du div identification*/
+.identification:hover{
+    background-color: darkorange;
+    color: #ffff;
+}
+/* au survol de l'image*/
+img:hover{
+    border: 3px solid green;
+}
+/* au survol du div professionnelle*/
+.professionnelle:hover{
+    background-color: #ffff;
+    color: green;
+}
+/* au survol du div universitaire*/
+.universitaire:hover{
+    background-color: green;
+    color: darkorange;
+}
